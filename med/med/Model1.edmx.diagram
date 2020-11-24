@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="86ed830442804eada84400709fac9b28" Name="Diagram1">
+        <EntityTypeShape EntityType="RegistrationOfPatientsModel.AddDelete" Width="1.5" PointX="5.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegistrationOfPatientsModel.Analyzes" Width="1.5" PointX="0.75" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegistrationOfPatientsModel.ArchivePatients" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegistrationOfPatientsModel.ArchiveRecover" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegistrationOfPatientsModel.ArchiveTestResults" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegistrationOfPatientsModel.DocInitializations" Width="1.5" PointX="3.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegistrationOfPatientsModel.FamilyDoctors" Width="1.5" PointX="1.5" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegistrationOfPatientsModel.HospitalsData" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegistrationOfPatientsModel.Illness" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegistrationOfPatientsModel.Patients" Width="1.5" PointX="3.75" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegistrationOfPatientsModel.Procedures" Width="1.5" PointX="5.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegistrationOfPatientsModel.Recover" Width="1.5" PointX="3" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegistrationOfPatientsModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RegistrationOfPatientsModel.TestResults" Width="1.5" PointX="3" PointY="21.5" IsExpanded="true" />
+        <AssociationConnector Association="RegistrationOfPatientsModel.FK__ArchiveTe__Analy__0B5CAFEA" ManuallyRouted="false" />
+        <AssociationConnector Association="RegistrationOfPatientsModel.FK__TestResul__Analy__7EF6D905" ManuallyRouted="false" />
+        <AssociationConnector Association="RegistrationOfPatientsModel.FK__ArchivePa__Famil__078C1F06" ManuallyRouted="false" />
+        <AssociationConnector Association="RegistrationOfPatientsModel.FK__ArchiveRe__Patie__0E391C95" ManuallyRouted="false" />
+        <AssociationConnector Association="RegistrationOfPatientsModel.FK__ArchiveTe__Patie__0A688BB1" ManuallyRouted="false" />
+        <AssociationConnector Association="RegistrationOfPatientsModel.FK__ArchiveRe__Illne__0F2D40CE" ManuallyRouted="false" />
+        <AssociationConnector Association="RegistrationOfPatientsModel.FK__DocInitia__Famil__164452B1" ManuallyRouted="false" />
+        <AssociationConnector Association="RegistrationOfPatientsModel.FK__Patients__Family__1920BF5C" ManuallyRouted="false" />
+        <AssociationConnector Association="RegistrationOfPatientsModel.FK__Hospitals__IllID__01D345B0" ManuallyRouted="false" />
+        <AssociationConnector Association="RegistrationOfPatientsModel.FK__Recover__Illness__7C1A6C5A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

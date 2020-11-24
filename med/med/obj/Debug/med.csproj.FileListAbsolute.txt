@@ -1,0 +1,311 @@
+D:\app\med\med\bin\Debug\med.exe.config
+D:\app\med\med\bin\Debug\med.exe
+D:\app\med\med\bin\Debug\med.pdb
+D:\app\med\med\obj\Debug\med.csprojAssemblyReference.cache
+D:\app\med\med\obj\Debug\med.Properties.Resources.resources
+D:\app\med\med\obj\Debug\med.csproj.GenerateResource.cache
+D:\app\med\med\obj\Debug\med.exe
+D:\app\med\med\obj\Debug\med.pdb
+D:\app\med\med\obj\Debug\med.Form1.resources
+D:\app\med\med\bin\Debug\EntityFramework.dll
+D:\app\med\med\bin\Debug\EntityFramework.SqlServer.dll
+D:\app\med\med\bin\Debug\EntityFramework.xml
+D:\app\med\med\bin\Debug\EntityFramework.SqlServer.xml
+D:\app\med\med\obj\Debug\med.AddDoctor.resources
+D:\app\med\med\obj\Debug\med.csproj.CopyComplete
+D:\app\med\med\obj\Debug\med.Patient.resources
+D:\app\med\med\obj\Debug\med.AddPatient.resources
+D:\app\med — копия\med\bin\Debug\med.exe.config
+D:\app\med — копия\med\bin\Debug\med.exe
+D:\app\med — копия\med\bin\Debug\med.pdb
+D:\app\med — копия\med\bin\Debug\EntityFramework.dll
+D:\app\med — копия\med\bin\Debug\EntityFramework.SqlServer.dll
+D:\app\med — копия\med\bin\Debug\EntityFramework.xml
+D:\app\med — копия\med\bin\Debug\EntityFramework.SqlServer.xml
+D:\app\med — копия\med\obj\Debug\med.csprojAssemblyReference.cache
+D:\app\med — копия\med\obj\Debug\med.AddDoctor.resources
+D:\app\med — копия\med\obj\Debug\med.AddPatient.resources
+D:\app\med — копия\med\obj\Debug\med.Form1.resources
+D:\app\med — копия\med\obj\Debug\med.Patient.resources
+D:\app\med — копия\med\obj\Debug\med.Properties.Resources.resources
+D:\app\med — копия\med\obj\Debug\med.csproj.GenerateResource.cache
+D:\app\med — копия\med\obj\Debug\med.csproj.CopyComplete
+D:\app\med — копия\med\obj\Debug\med.exe
+D:\app\med — копия\med\obj\Debug\med.pdb
+D:\Курсовой проект\med — копия\med\bin\Debug\med.exe.config
+D:\Курсовой проект\med — копия\med\bin\Debug\med.exe
+D:\Курсовой проект\med — копия\med\bin\Debug\med.pdb
+D:\Курсовой проект\med — копия\med\bin\Debug\EntityFramework.dll
+D:\Курсовой проект\med — копия\med\bin\Debug\EntityFramework.SqlServer.dll
+D:\Курсовой проект\med — копия\med\bin\Debug\EntityFramework.xml
+D:\Курсовой проект\med — копия\med\bin\Debug\EntityFramework.SqlServer.xml
+D:\Курсовой проект\med — копия\med\obj\Debug\med.csprojAssemblyReference.cache
+D:\Курсовой проект\med — копия\med\obj\Debug\med.AddDoctor.resources
+D:\Курсовой проект\med — копия\med\obj\Debug\med.AddPatient.resources
+D:\Курсовой проект\med — копия\med\obj\Debug\med.Form1.resources
+D:\Курсовой проект\med — копия\med\obj\Debug\med.Properties.Resources.resources
+D:\Курсовой проект\med — копия\med\obj\Debug\med.csproj.GenerateResource.cache
+D:\Курсовой проект\med — копия\med\obj\Debug\med.csproj.CopyComplete
+D:\Курсовой проект\med — копия\med\obj\Debug\med.exe
+D:\Курсовой проект\med — копия\med\obj\Debug\med.pdb
+D:\Курсовой проект\med — копия\med\obj\Debug\med.Form2.resources
+D:\Курсовой проект\med — копия\med\obj\Debug\med.MainWindow.resources
+D:\app\Курсовой проект\med — копия\med\bin\Debug\med.exe.config
+D:\app\Курсовой проект\med — копия\med\bin\Debug\med.exe
+D:\app\Курсовой проект\med — копия\med\bin\Debug\med.pdb
+D:\app\Курсовой проект\med — копия\med\bin\Debug\EntityFramework.dll
+D:\app\Курсовой проект\med — копия\med\bin\Debug\EntityFramework.SqlServer.dll
+D:\app\Курсовой проект\med — копия\med\bin\Debug\EntityFramework.xml
+D:\app\Курсовой проект\med — копия\med\bin\Debug\EntityFramework.SqlServer.xml
+D:\app\Курсовой проект\med — копия\med\obj\Debug\med.csprojAssemblyReference.cache
+D:\app\Курсовой проект\med — копия\med\obj\Debug\med.AddDoctor.resources
+D:\app\Курсовой проект\med — копия\med\obj\Debug\med.AddPatient.resources
+D:\app\Курсовой проект\med — копия\med\obj\Debug\med.Form1.resources
+D:\app\Курсовой проект\med — копия\med\obj\Debug\med.Form2.resources
+D:\app\Курсовой проект\med — копия\med\obj\Debug\med.MainWindow.resources
+D:\app\Курсовой проект\med — копия\med\obj\Debug\med.Properties.Resources.resources
+D:\app\Курсовой проект\med — копия\med\obj\Debug\med.csproj.GenerateResource.cache
+D:\app\Курсовой проект\med — копия\med\obj\Debug\med.csproj.CopyComplete
+D:\app\Курсовой проект\med — копия\med\obj\Debug\med.exe
+D:\app\Курсовой проект\med — копия\med\obj\Debug\med.pdb
+D:\app\Курсовой проект\med — копия\med\obj\Debug\med.FormProcedure.resources
+D:\app\Курсовой проект\med — копия\med\obj\Debug\med.Hospitals.resources
+D:\app\Курсовой проект\med — копия\med\obj\Debug\med.MakeDiagnosis.resources
+D:\ado\Курсовой проект\med — копия\med\obj\Debug\med.csprojAssemblyReference.cache
+D:\ado\Курсовой проект\med — копия\med\obj\Debug\med.AddDoctor.resources
+D:\ado\Курсовой проект\med — копия\med\obj\Debug\med.AddPatient.resources
+D:\ado\Курсовой проект\med — копия\med\obj\Debug\med.Form1.resources
+D:\ado\Курсовой проект\med — копия\med\obj\Debug\med.Form2.resources
+D:\ado\Курсовой проект\med — копия\med\obj\Debug\med.FormProcedure.resources
+D:\ado\Курсовой проект\med — копия\med\obj\Debug\med.Hospitals.resources
+D:\ado\Курсовой проект\med — копия\med\obj\Debug\med.MainWindow.resources
+D:\ado\Курсовой проект\med — копия\med\obj\Debug\med.MakeDiagnosis.resources
+D:\ado\Курсовой проект\med — копия\med\obj\Debug\med.Properties.Resources.resources
+D:\ado\Курсовой проект\med — копия\med\obj\Debug\med.csproj.GenerateResource.cache
+D:\ado\Курсовой проект\med — копия\med\obj\Debug\med.exe
+D:\ado\Курсовой проект\med — копия\med\obj\Debug\med.pdb
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\med.exe.config
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\med.exe
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\med.pdb
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\EntityFramework.dll
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\EntityFramework.SqlServer.dll
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\EntityFramework.xml
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\EntityFramework.SqlServer.xml
+D:\ado\Курсовой проект\med — копия\med\obj\Debug\med.csproj.CopyComplete
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Options.dll
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\System.Buffers.dll
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\System.Collections.Immutable.dll
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\System.ComponentModel.Annotations.dll
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\System.Memory.dll
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\System.Numerics.Vectors.dll
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Options.xml
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\System.Buffers.xml
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\System.Collections.Immutable.xml
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\System.Memory.xml
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\System.Numerics.Vectors.xml
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ado\Курсовой проект\med — копия\med\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ado\Курсовой проект\med — копия\med\obj\Debug\med.Archive.resources
+D:\app\Курсовой проект\med — копия\med\obj\Debug\med.Archive.resources
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Options.dll
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\app\Курсовой проект\med — копия\med\bin\Debug\System.Buffers.dll
+D:\app\Курсовой проект\med — копия\med\bin\Debug\System.Collections.Immutable.dll
+D:\app\Курсовой проект\med — копия\med\bin\Debug\System.ComponentModel.Annotations.dll
+D:\app\Курсовой проект\med — копия\med\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\app\Курсовой проект\med — копия\med\bin\Debug\System.Memory.dll
+D:\app\Курсовой проект\med — копия\med\bin\Debug\System.Numerics.Vectors.dll
+D:\app\Курсовой проект\med — копия\med\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\app\Курсовой проект\med — копия\med\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Options.xml
+D:\app\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\app\Курсовой проект\med — копия\med\bin\Debug\System.Buffers.xml
+D:\app\Курсовой проект\med — копия\med\bin\Debug\System.Collections.Immutable.xml
+D:\app\Курсовой проект\med — копия\med\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\app\Курсовой проект\med — копия\med\bin\Debug\System.Memory.xml
+D:\app\Курсовой проект\med — копия\med\bin\Debug\System.Numerics.Vectors.xml
+D:\app\Курсовой проект\med — копия\med\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\app\Курсовой проект\med — копия\med\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\app\Курсовой проект\med — копия\med\obj\Debug\med.AddTestResults.resources
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Курсовой проект\med — копия\med\bin\Debug\System.Buffers.dll
+D:\Курсовой проект\med — копия\med\bin\Debug\System.Collections.Immutable.dll
+D:\Курсовой проект\med — копия\med\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Курсовой проект\med — копия\med\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Курсовой проект\med — копия\med\bin\Debug\System.Memory.dll
+D:\Курсовой проект\med — копия\med\bin\Debug\System.Numerics.Vectors.dll
+D:\Курсовой проект\med — копия\med\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Курсовой проект\med — копия\med\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Курсовой проект\med — копия\med\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Курсовой проект\med — копия\med\bin\Debug\System.Buffers.xml
+D:\Курсовой проект\med — копия\med\bin\Debug\System.Collections.Immutable.xml
+D:\Курсовой проект\med — копия\med\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Курсовой проект\med — копия\med\bin\Debug\System.Memory.xml
+D:\Курсовой проект\med — копия\med\bin\Debug\System.Numerics.Vectors.xml
+D:\Курсовой проект\med — копия\med\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Курсовой проект\med — копия\med\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Курсовой проект\med — копия\med\obj\Debug\med.ADD.resources
+D:\Курсовой проект\med — копия\med\obj\Debug\med.AddTestResults.resources
+D:\Курсовой проект\med — копия\med\obj\Debug\med.Archive.resources
+D:\Курсовой проект\med — копия\med\obj\Debug\med.FormProcedure.resources
+D:\Курсовой проект\med — копия\med\obj\Debug\med.Hospitals.resources
+D:\Курсовой проект\med — копия\med\obj\Debug\med.MakeDiagnosis.resources
+D:\Курсовой проект\med — копия\med\obj\Debug\med.MedecineInfo.resources
+D:\Курсовой проект\med — копия\med\obj\Debug\med.EditPatients.resources
+D:\Курсовой проект\med\med\obj\Debug\med.csprojAssemblyReference.cache
+D:\Курсовой проект\med\med\obj\Debug\med.ADD.resources
+D:\Курсовой проект\med\med\obj\Debug\med.AddDoctor.resources
+D:\Курсовой проект\med\med\obj\Debug\med.AddPatient.resources
+D:\Курсовой проект\med\med\obj\Debug\med.AddTestResults.resources
+D:\Курсовой проект\med\med\obj\Debug\med.Archive.resources
+D:\Курсовой проект\med\med\obj\Debug\med.EditPatients.resources
+D:\Курсовой проект\med\med\obj\Debug\med.Form1.resources
+D:\Курсовой проект\med\med\obj\Debug\med.Form2.resources
+D:\Курсовой проект\med\med\obj\Debug\med.FormProcedure.resources
+D:\Курсовой проект\med\med\obj\Debug\med.Hospitals.resources
+D:\Курсовой проект\med\med\obj\Debug\med.MainWindow.resources
+D:\Курсовой проект\med\med\obj\Debug\med.MakeDiagnosis.resources
+D:\Курсовой проект\med\med\obj\Debug\med.MedecineInfo.resources
+D:\Курсовой проект\med\med\obj\Debug\med.csproj.GenerateResource.cache
+D:\Курсовой проект\med\med\obj\Debug\med.exe
+D:\Курсовой проект\med\med\obj\Debug\med.pdb
+D:\Курсовой проект\med\med\bin\Debug\med.exe.config
+D:\Курсовой проект\med\med\bin\Debug\med.exe
+D:\Курсовой проект\med\med\bin\Debug\med.pdb
+D:\Курсовой проект\med\med\bin\Debug\EntityFramework.dll
+D:\Курсовой проект\med\med\bin\Debug\EntityFramework.SqlServer.dll
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Курсовой проект\med\med\bin\Debug\System.Buffers.dll
+D:\Курсовой проект\med\med\bin\Debug\System.Collections.Immutable.dll
+D:\Курсовой проект\med\med\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Курсовой проект\med\med\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Курсовой проект\med\med\bin\Debug\System.Memory.dll
+D:\Курсовой проект\med\med\bin\Debug\System.Numerics.Vectors.dll
+D:\Курсовой проект\med\med\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Курсовой проект\med\med\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Курсовой проект\med\med\bin\Debug\EntityFramework.xml
+D:\Курсовой проект\med\med\bin\Debug\EntityFramework.SqlServer.xml
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Курсовой проект\med\med\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Курсовой проект\med\med\bin\Debug\System.Buffers.xml
+D:\Курсовой проект\med\med\bin\Debug\System.Collections.Immutable.xml
+D:\Курсовой проект\med\med\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Курсовой проект\med\med\bin\Debug\System.Memory.xml
+D:\Курсовой проект\med\med\bin\Debug\System.Numerics.Vectors.xml
+D:\Курсовой проект\med\med\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Курсовой проект\med\med\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Курсовой проект\med\med\obj\Debug\med.Properties.Resources.resources
+D:\Курсовой проект\med\med\obj\Debug\med.csproj.CopyComplete

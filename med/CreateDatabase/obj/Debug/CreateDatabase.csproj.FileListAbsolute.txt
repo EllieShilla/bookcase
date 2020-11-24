@@ -1,0 +1,6 @@
+D:\Курсовой проект\med — копия\CreateDatabase\bin\Debug\CreateDatabase.exe.config
+D:\Курсовой проект\med — копия\CreateDatabase\bin\Debug\CreateDatabase.exe
+D:\Курсовой проект\med — копия\CreateDatabase\bin\Debug\CreateDatabase.pdb
+D:\Курсовой проект\med — копия\CreateDatabase\obj\Debug\CreateDatabase.exe
+D:\Курсовой проект\med — копия\CreateDatabase\obj\Debug\CreateDatabase.pdb
+D:\Курсовой проект\med — копия\CreateDatabase\obj\Debug\CreateDatabase.csprojAssemblyReference.cache

@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RegistrationOfPatientsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AddDelete">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Login" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Analyzes">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Test" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="ArchiveTestResults" Relationship="Self.FK__ArchiveTe__Analy__0B5CAFEA" FromRole="Analyzes" ToRole="ArchiveTestResults" />
+    <NavigationProperty Name="TestResults" Relationship="Self.FK__TestResul__Analy__7EF6D905" FromRole="Analyzes" ToRole="TestResults" />
+  </EntityType>
+  <EntityType Name="ArchivePatients">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Surname" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Patronymic" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DateOfBirth" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Phone" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Registration" Type="String" MaxLength="70" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Passport_ID" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FamilyDoctorID" Type="Int32" Nullable="false" />
+    <Property Name="CardNumber" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="FamilyDoctors" Relationship="Self.FK__ArchivePa__Famil__078C1F06" FromRole="ArchivePatients" ToRole="FamilyDoctors" />
+    <NavigationProperty Name="ArchiveRecover" Relationship="Self.FK__ArchiveRe__Patie__0E391C95" FromRole="ArchivePatients" ToRole="ArchiveRecover" />
+    <NavigationProperty Name="ArchiveTestResults" Relationship="Self.FK__ArchiveTe__Patie__0A688BB1" FromRole="ArchivePatients" ToRole="ArchiveTestResults" />
+  </EntityType>
+  <EntityType Name="ArchiveRecover">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PatientId" Type="Int32" Nullable="false" />
+    <Property Name="IllnessID" Type="Int32" Nullable="false" />
+    <Property Name="DateFrom" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DateTo" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="ArchivePatients" Relationship="Self.FK__ArchiveRe__Patie__0E391C95" FromRole="ArchiveRecover" ToRole="ArchivePatients" />
+    <NavigationProperty Name="Illness" Relationship="Self.FK__ArchiveRe__Illne__0F2D40CE" FromRole="ArchiveRecover" ToRole="Illness" />
+  </EntityType>
+  <EntityType Name="ArchiveTestResults">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="PatientId" Type="Int32" Nullable="false" />
+    <Property Name="AnalyzeID" Type="Int32" Nullable="false" />
+    <Property Name="FileName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ResultData" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <NavigationProperty Name="Analyzes" Relationship="Self.FK__ArchiveTe__Analy__0B5CAFEA" FromRole="ArchiveTestResults" ToRole="Analyzes" />
+    <NavigationProperty Name="ArchivePatients" Relationship="Self.FK__ArchiveTe__Patie__0A688BB1" FromRole="ArchiveTestResults" ToRole="ArchivePatients" />
+  </EntityType>
+  <EntityType Name="DocInitializations">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FamilyDoctorID" Type="Int32" Nullable="false" />
+    <Property Name="Login" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="FamilyDoctors" Relationship="Self.FK__DocInitia__Famil__164452B1" FromRole="DocInitializations" ToRole="FamilyDoctors" />
+  </EntityType>
+  <EntityType Name="FamilyDoctors">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Surname" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Patronymic" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="ArchivePatients" Relationship="Self.FK__ArchivePa__Famil__078C1F06" FromRole="FamilyDoctors" ToRole="ArchivePatients" />
+    <NavigationProperty Name="DocInitializations" Relationship="Self.FK__DocInitia__Famil__164452B1" FromRole="FamilyDoctors" ToRole="DocInitializations" />
+    <NavigationProperty Name="Patients" Relationship="Self.FK__Patients__Family__1920BF5C" FromRole="FamilyDoctors" ToRole="Patients" />
+  </EntityType>
+  <EntityType Name="HospitalsData">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="PatientId" Type="Int32" Nullable="false" />
+    <Property Name="IllID" Type="Int32" Nullable="false" />
+    <Property Name="FileName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="hospitalsData1" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <NavigationProperty Name="Illness" Relationship="Self.FK__Hospitals__IllID__01D345B0" FromRole="HospitalsData" ToRole="Illness" />
+  </EntityType>
+  <EntityType Name="Illness">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Sick" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="ArchiveRecover" Relationship="Self.FK__ArchiveRe__Illne__0F2D40CE" FromRole="Illness" ToRole="ArchiveRecover" />
+    <NavigationProperty Name="HospitalsData" Relationship="Self.FK__Hospitals__IllID__01D345B0" FromRole="Illness" ToRole="HospitalsData" />
+    <NavigationProperty Name="Recover" Relationship="Self.FK__Recover__Illness__7C1A6C5A" FromRole="Illness" ToRole="Recover" />
+  </EntityType>
+  <EntityType Name="Patients">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Surname" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Patronymic" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DateOfBirth" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Phone" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Registration" Type="String" MaxLength="70" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Passport_ID" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FamilyDoctorID" Type="Int32" Nullable="false" />
+    <Property Name="CardNumber" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="FamilyDoctors" Relationship="Self.FK__Patients__Family__1920BF5C" FromRole="Patients" ToRole="FamilyDoctors" />
+  </EntityType>
+  <EntityType Name="Procedures">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HealthCheck" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Recover">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PatientId" Type="Int32" Nullable="false" />
+    <Property Name="IllnessID" Type="Int32" Nullable="false" />
+    <Property Name="DateFrom" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DateTo" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Illness" Relationship="Self.FK__Recover__Illness__7C1A6C5A" FromRole="Recover" ToRole="Illness" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TestResults">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="PatientId" Type="Int32" Nullable="false" />
+    <Property Name="AnalyzeID" Type="Int32" Nullable="false" />
+    <Property Name="FileName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ResultData" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <NavigationProperty Name="Analyzes" Relationship="Self.FK__TestResul__Analy__7EF6D905" FromRole="TestResults" ToRole="Analyzes" />
+  </EntityType>
+  <Association Name="FK__ArchiveTe__Analy__0B5CAFEA">
+    <End Role="Analyzes" Type="Self.Analyzes" Multiplicity="1" />
+    <End Role="ArchiveTestResults" Type="Self.ArchiveTestResults" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Analyzes">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ArchiveTestResults">
+        <PropertyRef Name="AnalyzeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__TestResul__Analy__7EF6D905">
+    <End Role="Analyzes" Type="Self.Analyzes" Multiplicity="1" />
+    <End Role="TestResults" Type="Self.TestResults" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Analyzes">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="TestResults">
+        <PropertyRef Name="AnalyzeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ArchivePa__Famil__078C1F06">
+    <End Role="FamilyDoctors" Type="Self.FamilyDoctors" Multiplicity="1" />
+    <End Role="ArchivePatients" Type="Self.ArchivePatients" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FamilyDoctors">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ArchivePatients">
+        <PropertyRef Name="FamilyDoctorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ArchiveRe__Patie__0E391C95">
+    <End Role="ArchivePatients" Type="Self.ArchivePatients" Multiplicity="1" />
+    <End Role="ArchiveRecover" Type="Self.ArchiveRecover" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ArchivePatients">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ArchiveRecover">
+        <PropertyRef Name="PatientId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ArchiveTe__Patie__0A688BB1">
+    <End Role="ArchivePatients" Type="Self.ArchivePatients" Multiplicity="1" />
+    <End Role="ArchiveTestResults" Type="Self.ArchiveTestResults" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ArchivePatients">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ArchiveTestResults">
+        <PropertyRef Name="PatientId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ArchiveRe__Illne__0F2D40CE">
+    <End Role="Illness" Type="Self.Illness" Multiplicity="1" />
+    <End Role="ArchiveRecover" Type="Self.ArchiveRecover" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Illness">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ArchiveRecover">
+        <PropertyRef Name="IllnessID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DocInitia__Famil__164452B1">
+    <End Role="FamilyDoctors" Type="Self.FamilyDoctors" Multiplicity="1" />
+    <End Role="DocInitializations" Type="Self.DocInitializations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FamilyDoctors">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="DocInitializations">
+        <PropertyRef Name="FamilyDoctorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Patients__Family__1920BF5C">
+    <End Role="FamilyDoctors" Type="Self.FamilyDoctors" Multiplicity="1" />
+    <End Role="Patients" Type="Self.Patients" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FamilyDoctors">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Patients">
+        <PropertyRef Name="FamilyDoctorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Hospitals__IllID__01D345B0">
+    <End Role="Illness" Type="Self.Illness" Multiplicity="1" />
+    <End Role="HospitalsData" Type="Self.HospitalsData" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Illness">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="HospitalsData">
+        <PropertyRef Name="IllID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Recover__Illness__7C1A6C5A">
+    <End Role="Illness" Type="Self.Illness" Multiplicity="1" />
+    <End Role="Recover" Type="Self.Recover" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Illness">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Recover">
+        <PropertyRef Name="IllnessID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MedecineEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AddDelete" EntityType="Self.AddDelete" />
+    <EntitySet Name="Analyzes" EntityType="Self.Analyzes" />
+    <EntitySet Name="ArchivePatients" EntityType="Self.ArchivePatients" />
+    <EntitySet Name="ArchiveRecover" EntityType="Self.ArchiveRecover" />
+    <EntitySet Name="ArchiveTestResults" EntityType="Self.ArchiveTestResults" />
+    <EntitySet Name="DocInitializations" EntityType="Self.DocInitializations" />
+    <EntitySet Name="FamilyDoctors" EntityType="Self.FamilyDoctors" />
+    <EntitySet Name="HospitalsData" EntityType="Self.HospitalsData" />
+    <EntitySet Name="Illness" EntityType="Self.Illness" />
+    <EntitySet Name="Patients" EntityType="Self.Patients" />
+    <EntitySet Name="Procedures" EntityType="Self.Procedures" />
+    <EntitySet Name="Recover" EntityType="Self.Recover" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="TestResults" EntityType="Self.TestResults" />
+    <AssociationSet Name="FK__ArchiveTe__Analy__0B5CAFEA" Association="Self.FK__ArchiveTe__Analy__0B5CAFEA">
+      <End Role="Analyzes" EntitySet="Analyzes" />
+      <End Role="ArchiveTestResults" EntitySet="ArchiveTestResults" />
+    </AssociationSet>
+    <AssociationSet Name="FK__TestResul__Analy__7EF6D905" Association="Self.FK__TestResul__Analy__7EF6D905">
+      <End Role="Analyzes" EntitySet="Analyzes" />
+      <End Role="TestResults" EntitySet="TestResults" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ArchivePa__Famil__078C1F06" Association="Self.FK__ArchivePa__Famil__078C1F06">
+      <End Role="FamilyDoctors" EntitySet="FamilyDoctors" />
+      <End Role="ArchivePatients" EntitySet="ArchivePatients" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ArchiveRe__Patie__0E391C95" Association="Self.FK__ArchiveRe__Patie__0E391C95">
+      <End Role="ArchivePatients" EntitySet="ArchivePatients" />
+      <End Role="ArchiveRecover" EntitySet="ArchiveRecover" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ArchiveTe__Patie__0A688BB1" Association="Self.FK__ArchiveTe__Patie__0A688BB1">
+      <End Role="ArchivePatients" EntitySet="ArchivePatients" />
+      <End Role="ArchiveTestResults" EntitySet="ArchiveTestResults" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ArchiveRe__Illne__0F2D40CE" Association="Self.FK__ArchiveRe__Illne__0F2D40CE">
+      <End Role="Illness" EntitySet="Illness" />
+      <End Role="ArchiveRecover" EntitySet="ArchiveRecover" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DocInitia__Famil__164452B1" Association="Self.FK__DocInitia__Famil__164452B1">
+      <End Role="FamilyDoctors" EntitySet="FamilyDoctors" />
+      <End Role="DocInitializations" EntitySet="DocInitializations" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Patients__Family__1920BF5C" Association="Self.FK__Patients__Family__1920BF5C">
+      <End Role="FamilyDoctors" EntitySet="FamilyDoctors" />
+      <End Role="Patients" EntitySet="Patients" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Hospitals__IllID__01D345B0" Association="Self.FK__Hospitals__IllID__01D345B0">
+      <End Role="Illness" EntitySet="Illness" />
+      <End Role="HospitalsData" EntitySet="HospitalsData" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Recover__Illness__7C1A6C5A" Association="Self.FK__Recover__Illness__7C1A6C5A">
+      <End Role="Illness" EntitySet="Illness" />
+      <End Role="Recover" EntitySet="Recover" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RegistrationOfPatientsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AddDelete">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Login" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DocInitializations">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FamilyDoctorID" Type="int" Nullable="false" />
+    <Property Name="Login" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="15" Nullable="false" />
+  </EntityType>
+  <EntityType Name="FamilyDoctors">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="Patronymic" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Illness">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Sick" Type="nvarchar" MaxLength="30" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Patients">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="Patronymic" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="DateOfBirth" Type="date" Nullable="false" />
+    <Property Name="Phone" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Registration" Type="nvarchar" MaxLength="30" Nullable="false" />
+    <Property Name="Passport_ID" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="FamilyDoctorID" Type="int" Nullable="false" />
+    <Property Name="CardNumber" Type="nvarchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK__DocInitia__Famil__164452B1">
+    <End Role="FamilyDoctors" Type="Self.FamilyDoctors" Multiplicity="1" />
+    <End Role="DocInitializations" Type="Self.DocInitializations" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FamilyDoctors">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="DocInitializations">
+        <PropertyRef Name="FamilyDoctorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Patients__Family__1920BF5C">
+    <End Role="FamilyDoctors" Type="Self.FamilyDoctors" Multiplicity="1" />
+    <End Role="Patients" Type="Self.Patients" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FamilyDoctors">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Patients">
+        <PropertyRef Name="FamilyDoctorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="RegistrationOfPatientsModelStoreContainer">
+    <EntitySet Name="AddDelete" EntityType="Self.AddDelete" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DocInitializations" EntityType="Self.DocInitializations" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FamilyDoctors" EntityType="Self.FamilyDoctors" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Illness" EntityType="Self.Illness" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Patients" EntityType="Self.Patients" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__DocInitia__Famil__164452B1" Association="Self.FK__DocInitia__Famil__164452B1">
+      <End Role="FamilyDoctors" EntitySet="FamilyDoctors" />
+      <End Role="DocInitializations" EntitySet="DocInitializations" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Patients__Family__1920BF5C" Association="Self.FK__Patients__Family__1920BF5C">
+      <End Role="FamilyDoctors" EntitySet="FamilyDoctors" />
+      <End Role="Patients" EntitySet="Patients" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
